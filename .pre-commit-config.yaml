@@ -6,7 +6,7 @@
 #
 # All rights reserved.
 #
-# SPDX-License-Identifier: Proprietary
+# SPDX-License-Identifier: GPL-3.0-or-later
 #
 # ******************************************************************************
 

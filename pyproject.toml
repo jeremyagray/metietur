@@ -6,7 +6,7 @@
 #
 # All rights reserved.
 #
-# SPDX-License-Identifier: Proprietary
+# SPDX-License-Identifier: GPL-3.0-or-later
 #
 # ******************************************************************************
 
@@ -104,7 +104,7 @@ license = "GPL-3.0-or-later"
 maintainers = [
   "Jeremy A Gray <gray@flyquackswim.com>",
 ]
-readme = "README.md"
+readme = "README.rst"
 homepage = "https://github.com/jeremyagray/metietur"
 repository = "https://github.com/jeremyagray/metietur"
 
