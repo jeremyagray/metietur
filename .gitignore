@@ -1,0 +1,46 @@
+# ******************************************************************************
+#
+# metietur, components for measurement practice
+#
+# Copyright 2021-2024 Jeremy A Gray <gray@flyquackswim.com>.
+#
+# All rights reserved.
+#
+# SPDX-License-Identifier: Proprietary
+#
+# ******************************************************************************
+
+# Emacs.
+*~
+.dir-locals.el
+commit
+
+# Python.
+*.egg-info
+*.pyc
+.coverage
+.hypothesis/
+.pytest_cache
+.python-version
+.tox
+.venv
+__pycache__
+bin
+build
+dist/
+docs/_build/
+htmlcov
+
+# Yarn 2.
+*-debug.log*
+*-error.log*
+.DS_Store
+.env
+.env.*
+.nyc_output/
+.pnp.js
+/.pnp
+/build
+/coverage
+/docs
+/node_modules

@@ -1,0 +1,28 @@
+# ******************************************************************************
+#
+# metietur, components for measurement practice
+#
+# Copyright 2021-2024 Jeremy A Gray <gray@flyquackswim.com>.
+#
+# All rights reserved.
+#
+# SPDX-License-Identifier: Proprietary
+#
+# ******************************************************************************
+
+[flake8]
+
+extend-ignore =
+    E203,
+    W503
+
+per-file-ignores =
+    __init__.py: F401
+
+exclude =
+    .git,
+    .tox,
+    __pycache__,
+
+max-complexity = 20
+max-line-length = 88
