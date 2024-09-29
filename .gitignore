@@ -32,6 +32,12 @@ docs/_build/
 htmlcov
 
 # Yarn 2.
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 *-debug.log*
 *-error.log*
 .DS_Store
@@ -43,4 +49,5 @@ htmlcov
 /build
 /coverage
 /docs
+/dist
 /node_modules

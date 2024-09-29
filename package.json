@@ -1,0 +1,74 @@
+{
+  "author": "Jeremy A Gray <gray@flyquackswim.com> (http://www.flyquackswim.com/)",
+  "browserslist": {
+    "production": [
+      "last 2 versions",
+      "not dead",
+      "> 0.2%"
+    ],
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 safari versions"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/jeremyagray/metietur/issues"
+  },
+  "dependencies": {
+    "d3": "^7",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "description": "components for measurement practice",
+  "devDependencies": {
+    "@babel/core": "^7",
+    "@babel/preset-env": "^7",
+    "@babel/preset-react": "^7",
+    "@eslint/js": "^9.11.1",
+    "@testing-library/dom": "^10",
+    "@testing-library/jest-dom": "^6",
+    "@testing-library/react": "^16",
+    "babel-loader": "^9",
+    "eslint": "^9",
+    "eslint-plugin-react": "^7",
+    "globals": "^15",
+    "jest": "^29",
+    "jest-environment-jsdom": "^29",
+    "jsdoc": "^4",
+    "source-map-loader": "^5",
+    "webpack": "^5",
+    "webpack-cli": "^5",
+    "webpack-dev-server": "^4"
+  },
+  "directories": {},
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "homepage": "https://github.com/jeremyagray/metietur",
+  "keywords": [
+    "d3",
+    "react",
+    "svg"
+  ],
+  "license": "GPL-3.0-or-later",
+  "name": "metietur",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyagray/metietur.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "cover": "jest --coverage --watchAll --detectOpenHandles",
+    "docs": "jsdoc -c ./jsdoc.config.js",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix",
+    "lint-all": "eslint '*.js' 'src/**/*.js'",
+    "lint-fix-all": "eslint '*.js' 'src/**/*.js' --fix",
+    "start": "webpack serve",
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "version": "0.0.1",
+  "packageManager": "yarn@4.5.0"
+}
